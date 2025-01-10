@@ -1,0 +1,81 @@
+body {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+    background-color: #222831;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(306deg, rgba(107, 107, 107, 0.04) 0%, rgba(107, 107, 107, 0.04) 8%,rgba(31, 31, 31, 0.04) 8%, rgba(31, 31, 31, 0.04) 100%),linear-gradient(274deg, rgba(228, 228, 228, 0.04) 0%, rgba(228, 228, 228, 0.04) 62%,rgba(54, 54, 54, 0.04) 62%, rgba(54, 54, 54, 0.04) 100%),linear-gradient(389deg, rgba(18, 18, 18, 0.04) 0%, rgba(18, 18, 18, 0.04) 37%,rgba(233, 233, 233, 0.04) 37%, rgba(233, 233, 233, 0.04) 100%),linear-gradient(518deg, rgba(201, 201, 201, 0.04) 0%, rgba(201, 201, 201, 0.04) 55%,rgba(47, 47, 47, 0.04) 55%, rgba(47, 47, 47, 0.04) 100%),linear-gradient(535deg, rgba(172, 172, 172, 0.04) 0%, rgba(172, 172, 172, 0.04) 33%,rgba(26, 26, 26, 0.04) 33%, rgba(26, 26, 26, 0.04) 100%),linear-gradient(329deg, rgba(11, 11, 11, 0.04) 0%, rgba(11, 11, 11, 0.04) 38%,rgba(87, 87, 87, 0.04) 38%, rgba(87, 87, 87, 0.04) 100%),linear-gradient(612deg, rgba(199, 199, 199, 0.04) 0%, rgba(199, 199, 199, 0.04) 69%,rgba(4, 4, 4, 0.04) 69%, rgba(4, 4, 4, 0.04) 100%),linear-gradient(578deg, rgba(36, 36, 36, 0.04) 0%, rgba(36, 36, 36, 0.04) 20%,rgba(91, 91, 91, 0.04) 20%, rgba(91, 91, 91, 0.04) 100%),linear-gradient(355deg, rgb(30,94,98),rgb(47,144,149));
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #3fc1c9;
+}
+.logo img{
+    width: 200px;
+}
+.logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainWrap{
+    height: 710px;
+    margin-top: 120px;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainbox{
+    width: 40%;
+    height: 420px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease;
+    margin-bottom: 15%;
+}
+.mainbox:hover{
+    box-shadow: 0px 0px 12px 12px rgba(0, 0, 0, 0.5);
+}
+.beforeimg img{
+    width: 100px;
+}
+#blueText{
+    color: #3fc1c9;
+}
+.startBtn button{
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: #3fc1c9;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+.startBtn{
+    margin-top: 30px;
+}
+.startBtn button:hover{
+    transform: scale(1.05);
+}
+.startBtn button a{
+    text-decoration: none;
+    color: #222831;
+}
